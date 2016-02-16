@@ -1,0 +1,95 @@
+
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+// after the API code downloads.
+var player;
+var ts;
+var transcript_length;
+var transcript_array;
+var last_line=0;
+var id=document.getElementById("videoid").innerHTML;
+
+//==== this is to create the youtube iframe api
+function onYouTubeIframeAPIReady() {
+  create_transcript_arr();
+  player = new YT.Player('player', {
+    height: '390',
+    width: '650',
+    videoId: id,
+    events: {
+      'onReady': setInterval(check_line_to_highlight, 1000)
+  }
+  });
+}
+
+//+++++ to create multidimentional array of the transcript
+// +++ this will contain the data as following (end_time,id,text)
+function create_transcript_arr() {
+ts=document.getElementById("transcript");
+transcript_length=ts.getElementsByTagName('span').length;
+transcript_array=new Array(transcript_length);
+i=0;
+$('span').each(function() {
+  transcript_array[i]=new Array(3);
+  transcript_array[i][0]=$(this).attr('end');
+  transcript_array[i][1]=$(this).attr('id');
+  transcript_array[i][2]=$(this).html();
+  i++;
+});
+}
+
+//==== to remove all highlight of other elements
+function remove_highlight(){
+hl=document.getElementsByClassName('transcript-highlight');
+  if (hl.length!=0)
+    hl[0].classList.remove("transcript-highlight");
+}
+
+//==== to highlight the current running line
+function apply_highlight(line){
+document.getElementById(line).className += 'transcript-highlight';
+}
+
+//==== this is the setInterval function which is called after 1 sec
+//==== this will check which line to highlight depending on the ongoing timespan of the video
+function check_line_to_highlight(){
+  var ss=Math.round(player.getCurrentTime());
+  for(i=0;i<transcript_length;i++) {
+    if(ss<transcript_array[i][0]) {
+      remove_highlight();
+      scroll_action(transcript_array[i][1].split("line")[1]);
+      apply_highlight(transcript_array[i][1]);
+      break;
+    }
+  }
+}
+
+//=== to play the displayed video
+function onPlayerReady(event) {
+  player.playVideo();
+}
+
+//=== to stop the ongoing video
+function stopVideo() {
+  player.stopVideo();
+}
+
+//=== to seek the video depending on the transcript selected
+function transcript_seek(time) {
+  player.seekTo(time)
+}
+
+//=== scroll dependng of the line
+function scroll_action(current_line_no) {
+  //scroll only if highlight line exends 10 and scroll only when the next line is highlighted and not on time
+  if(current_line_no>7 && last_line!=current_line_no)
+  {
+    last_line=current_line_no;
+    document.getElementById('transcript').scrollTop += 10;
+  }
+  console.log(current_line_no);
+}
+</script>

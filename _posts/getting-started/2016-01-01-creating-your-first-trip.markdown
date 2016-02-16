@@ -4,8 +4,9 @@ date:   2015-09-11 20:15:58 +0530
 title:  "Creating your first trip"
 meta_title: 
 short_discription: "The first step to set up a tour is to decide whether it is a short tour, class or certification course, multi day tour or you need custom fields."
-youtube_url: 
-srt_url: subtitles/srt/Basic_Details.srt
+youtube_url: Bocu_rtvoYU
+#'cjVQ36NhbMk'
+srt_url: Basic_Details.srt
 layout: article
 ---
 
