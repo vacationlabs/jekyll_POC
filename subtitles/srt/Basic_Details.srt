@@ -1,0 +1,320 @@
+﻿1
+00:00:00,000 --> 00:00:04,800
+
+
+2
+00:00:04,800 --> 00:00:09,033
+Hi and welcome to the Vacation Labs booking engine. This video will take you through the process of  
+
+3
+00:00:09,033 --> 00:00:13,266
+creating a product which could be your tour, trip or an activity. 
+
+4
+00:00:13,266 --> 00:00:18,932
+You can create a new tour by clicking on the new trip button on your dashboard
+
+5
+00:00:18,933 --> 00:00:21,599
+or the one in your product section.
+
+6
+00:00:21,600 --> 00:00:26,966
+which gives you an option choose the type of product you wish to create.  
+
+7
+00:00:26,966 --> 00:00:32,332
+But, first let’s understand, that how would you categorize your product into the given options. 
+
+8
+00:00:32,333 --> 00:00:41,833
+Any tour or activity which will last only a couple of hours or less than a day will fall under the category of Short Tours. For example 
+
+9
+00:00:41,833 --> 00:00:48,199
+a 3 hrs walking tour in Old Delhi or a day sightseeing tour in Mumbai. 
+
+10
+00:00:48,200 --> 00:00:57,500
+Activities like paragliding, Jet Ski rides, Bunjee Jumping etc which last only a couple of minutes will also come under the same section.
+
+11
+00:00:57,500 --> 00:01:03,300
+In the Multi Day Tour category you can add tours which last for more than one day.
+
+12
+00:01:03,300 --> 00:01:12,333
+This can be a weekend getaway of 2-3 days or a tour package of 10-12 days or more. For example the famous Golden Triangle tours 
+
+13
+00:01:12,333 --> 00:01:18,366
+which usually lasts 2-3 days and cover Delhi-Agra and Jaipur sightseeing,  
+
+14
+00:01:18,366 --> 00:01:25,266
+or a complete South India Tour package of 6-7 days.
+
+15
+00:01:25,266 --> 00:01:26,132
+they all will come under the category of multi day tour.
+
+16
+00:01:26,133 --> 00:01:29,499
+A class or a certification course on the other hand
+
+17
+00:01:29,500 --> 00:01:36,866
+would be a recurring program of short duration with fixed dates and schedules. Like a Guitar Learning Class, a dance class,
+
+18
+00:01:36,866 --> 00:01:44,266
+ Cooking class or a 3 months summer course of painting or learning software.
+
+19
+00:01:44,266 --> 00:01:45,766
+
+
+20
+00:01:45,766 --> 00:01:47,966
+Let’s just start with a short tour, the assist of the shuttle
+
+21
+00:01:47,966 --> 00:01:51,332
+say a Delhi walking tour of 3 hours.
+
+22
+00:01:51,333 --> 00:01:55,266
+Begin with choosing whether the trip is shared or private. 
+
+23
+00:01:55,266 --> 00:02:02,566
+A shared trip is basically the one in which individuals or groups, who book separately, but travel together. 
+
+24
+00:02:02,566 --> 00:02:07,866
+While in a Private tour a person or a group travel separately, i.e. the tour  
+
+25
+00:02:07,866 --> 00:02:13,199
+is operated exclusively for them and others will not be made part of that departure.
+
+26
+00:02:13,200 --> 00:02:21,066
+If you choose a Shared trip the system will allow bookings to happen till all seats in a particular timeslot are filled, but in Private trip, the booking 
+
+27
+00:02:21,066 --> 00:02:26,332
+system will keep on taking bookings until you manually close the booking.
+
+28
+00:02:26,333 --> 00:02:32,099
+Give your trip a name: In our example here we can call it a Delhi Walking Tour
+
+29
+00:02:32,100 --> 00:02:41,666
+Give your trip a unique code which helps you identify your trip. For example if you have a list of trips with similar names like Old Delhi Food 
+
+30
+00:02:41,666 --> 00:02:48,066
+Walk, Delhi market walk, Delhi heritage tour then you can quickly spot your trip through the unique code. 
+
+31
+00:02:48,066 --> 00:02:53,432
+Often if the trip name is too long it may not show up completely on mobile devices or text messages  
+
+32
+00:02:53,433 --> 00:02:58,799
+but you can immediately recognize it with the help of unique code.
+
+33
+00:02:58,800 --> 00:03:06,233
+Choose the duration of the trip. One of the most important things, which a customer want know about a short tour is, its duration. 
+
+34
+00:03:06,233 --> 00:03:12,233
+A day sightseeing tour of Mumbai can be of 6 hours also and 10 hours also. 
+
+35
+00:03:12,233 --> 00:03:17,899
+Telling your customers how long the trip will last makes it easier for them to decide.
+
+36
+00:03:17,900 --> 00:03:19,266
+
+
+37
+00:03:19,266 --> 00:03:26,366
+You can also set the number of minimum and maximum participants the trip can accommodate. For example the walking tour 
+
+38
+00:03:26,366 --> 00:03:29,932
+can have min 2 participants and maximum 10, which would mean anyone who books will be able to make a booking only if they choose 2 or 
+
+39
+00:03:29,933 --> 00:03:33,499
+more seats. 
+
+40
+00:03:33,500 --> 00:03:34,766
+
+
+41
+00:03:34,766 --> 00:03:39,199
+The booking system allows you to give your customers as much information as possible, 
+
+42
+00:03:39,200 --> 00:03:45,133
+which can include the pictures, details of the trip, what’s included in the price and what’s not etc. 
+
+43
+00:03:45,133 --> 00:03:49,466
+All the information you provide here shows up on the Trip Details Page. 
+
+44
+00:03:49,466 --> 00:03:53,232
+The Inclusions and exclusions though also show up on the booking form.
+
+45
+00:03:53,233 --> 00:03:55,666
+ Let’s start with giving the overview. 
+
+46
+00:03:55,666 --> 00:04:03,166
+A brief description about the walking tour, which lets the customer know, what to expect during the tour and what the tour is about. 
+
+47
+00:04:03,166 --> 00:04:07,632
+For example in case of Delhi Walking tour it can something like this: 
+
+48
+00:04:07,633 --> 00:04:10,266
+
+
+49
+00:04:10,266 --> 00:04:15,899
+The next section is Inclusions – where you mention everything that’s included within the price of the trip. 
+
+50
+00:04:15,900 --> 00:04:17,266
+
+
+51
+00:04:17,266 --> 00:04:22,966
+For example, in this walking tour, the basic price includes the transport during the walk, 
+
+52
+00:04:22,966 --> 00:04:24,999
+snacks during the trip, 
+
+53
+00:04:25,000 --> 00:04:28,533
+tour guide etc. Let’s add that in.
+
+54
+00:04:28,533 --> 00:04:33,599
+
+
+55
+00:04:33,600 --> 00:04:39,600
+Within Exclusions you specify what is not included in the price of the trip, for example 
+
+56
+00:04:39,600 --> 00:04:45,600
+in this particular walking tour, we expect the guests to pay for their airport to hotel transfers, 
+
+57
+00:04:45,600 --> 00:04:51,666
+travel insurance, VISA charges etc. Let’s add those as Exclusions. 
+
+58
+00:04:51,666 --> 00:04:54,332
+
+
+59
+00:04:54,333 --> 00:05:00,299
+With the Highlights you try to give the customer a gist of what one will experience during the trip. 
+
+60
+00:05:00,300 --> 00:05:07,100
+This can be a list of attractions or names of famous locations or monuments to be visited during the tour. 
+
+61
+00:05:07,100 --> 00:05:14,666
+In this tour we will be visiting the monuments like Red Fort and Jama Masjid and the famous Chandni Chowk market. 
+
+62
+00:05:14,666 --> 00:05:17,399
+Let's add this information to the highlights
+
+63
+00:05:17,400 --> 00:05:18,866
+
+
+64
+00:05:18,866 --> 00:05:27,599
+Now, as a general guideline, it’s preferable to add Inclusions, Exclusions, and Highlights as bulleted points because they are easier for your 
+
+65
+00:05:27,600 --> 00:05:33,466
+customer to read. However, if you feel that a paragraph of text works better, then you can use that as well.
+
+66
+00:05:33,466 --> 00:05:40,766
+Just a note, only the overview is a mandatory field. Inclusions, exclusions, and highlights are optional. 
+
+67
+00:05:40,766 --> 00:05:49,166
+So, for example, if the tour that you’re creating is very, very short, 15 min Jet-Ski ride, having a “Highlights” 
+
+68
+00:05:49,166 --> 00:05:54,799
+section may not make sense for that. So, you can leave that out by un-checking this checkbox.  
+
+69
+00:05:54,800 --> 00:06:00,900
+So, the options which you have un-checked here will not show up on the trip details page.
+
+70
+00:06:00,900 --> 00:06:04,500
+Last, but one of the very important parts is the pictures. 
+
+71
+00:06:04,500 --> 00:06:09,700
+Make sure that you upload attractive pictures related to your trip, which would be visible on your trip details page along with all the other 
+
+72
+00:06:09,700 --> 00:06:14,933
+information provided in the basic details section. 
+
+73
+00:06:14,933 --> 00:06:23,766
+You can also add general or tour specific terms and conditions. A travel firm which deals in short tours or walking tours, 
+
+74
+00:06:23,766 --> 00:06:30,966
+a safety disclaimer and a refund policy could be common for all the trips, thus they can come under General terms and conditions. 
+
+75
+00:06:30,966 --> 00:06:38,699
+But things like dress code might be applicable only on those tours which include visits to religious places. 
+
+76
+00:06:38,700 --> 00:06:45,666
+A disclaimer on eating local food and beverage would make more sense for food specific tours. 
+
+77
+00:06:45,666 --> 00:06:53,332
+The general terms and conditions can be mentioned only once by clicking on this and the same will appear on all the tours which are 
+
+78
+00:06:53,333 --> 00:06:58,466
+visible on the booking form, right before making the payment.
+
+79
+00:06:58,466 --> 00:07:05,532
+Make sure that all the information you have mentioned is correct. Once done, click on Save and Next to proceed to the next step.
+
+80
+00:07:05,533 --> 00:07:13,466
+
+

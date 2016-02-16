@@ -1,0 +1,7 @@
+<ul class="all-articles">
+  {% for cat in site.categories.[include.type] limit:5 %}
+    <li>
+      <a href="{{site.baseurl}}{{cat.url}}"><span class="ion-document"></span>{{cat.title}}</a>
+    </li>
+  {% endfor %}
+</ul>

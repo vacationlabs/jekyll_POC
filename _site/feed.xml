@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Feb 2016 23:42:50 +0530</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2016 23:42:50 +0530</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>What is a storefront</title>
+        <description>&lt;p&gt;What is a storefront&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/using-your-storefront/what-is-a-storefront/</link>
+        <guid isPermaLink="true">http://yourdomain.com/using-your-storefront/what-is-a-storefront/</guid>
+        
+        
+        <category>using-your-storefront</category>
+        
+      </item>
+    
+      <item>
+        <title>how to upload trip content</title>
+        <description>&lt;p&gt;how to upload trip content&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/using-your-storefront/how-to-upload-trip-content/</link>
+        <guid isPermaLink="true">http://yourdomain.com/using-your-storefront/how-to-upload-trip-content/</guid>
+        
+        
+        <category>using-your-storefront</category>
+        
+      </item>
+    
+      <item>
+        <title>Using the Vacation Labs dashboard</title>
+        <description>&lt;p&gt;Using the Vacation Labs dashboard&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/other-features/using-the-vacation-labs-dashboard/</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-features/using-the-vacation-labs-dashboard/</guid>
+        
+        
+        <category>other-features</category>
+        
+      </item>
+    
+      <item>
+        <title>How to view/edit bookings</title>
+        <description>&lt;p&gt;How to view/edit bookings&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/other-features/how-to-view-edit-bookings/</link>
+        <guid isPermaLink="true">http://yourdomain.com/other-features/how-to-view-edit-bookings/</guid>
+        
+        
+        <category>other-features</category>
+        
+      </item>
+    
+      <item>
+        <title>Using trip variants</title>
+        <description>&lt;p&gt;Using trip variants&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/managing-your-trips/using-trip-variants/</link>
+        <guid isPermaLink="true">http://yourdomain.com/managing-your-trips/using-trip-variants/</guid>
+        
+        
+        <category>managing-your-trips</category>
+        
+      </item>
+    
+      <item>
+        <title>Pricing your tour</title>
+        <description>&lt;p&gt;Pricing your tour&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/managing-your-trips/pricing-your-tour/</link>
+        <guid isPermaLink="true">http://yourdomain.com/managing-your-trips/pricing-your-tour/</guid>
+        
+        
+        <category>managing-your-trips</category>
+        
+      </item>
+    
+      <item>
+        <title>Configure your account settings</title>
+        <description>&lt;p&gt;The Settings page has multiple categories on the left navigation bar.&lt;/p&gt;
+
+&lt;p&gt;The Settings page lets you edit the Support details that you provided while registering for vacation labs. These details include company name, website, support email, notification email, support phone, booking website, booking terms URL and mailing address.&lt;/p&gt;
+
+&lt;p&gt;The branding tab gives you good control over your storefront customization. You can upload/change your logo, background image, booking website banner and favicon through the settings.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/getting-started/configure-your-account-settings/</link>
+        <guid isPermaLink="true">http://yourdomain.com/getting-started/configure-your-account-settings/</guid>
+        
+        
+        <category>getting-started</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating your first trip</title>
+        <description>&lt;p&gt;The first step to set up a tour is to decide whether it is a short tour, class or certification course, multi day tour or you need custom fields. We have built in type specific features and terminology which will help you customize the tour to your requirements&lt;/p&gt;
+
+&lt;p&gt;After selecting the type of tour, you start by filling the basic details&lt;/p&gt;
+</description>
+        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
+        <link>http://yourdomain.com/getting-started/creating-your-first-trip/</link>
+        <guid isPermaLink="true">http://yourdomain.com/getting-started/creating-your-first-trip/</guid>
+        
+        
+        <category>getting-started</category>
+        
+      </item>
+    
+  </channel>
+</rss>
