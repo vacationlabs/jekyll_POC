@@ -1,0 +1,28 @@
+---
+layout: all-category
+title: Article Categories
+---
+
+{% assign n = 0 %}
+
+{% for category in site.data.category-types %}
+  {% if n < 2 %}
+  <div class="row">
+  {% endif %}
+  <div class="col-sm-6 topic">
+    <a href="{{site.baseurl}}/support/{{category.folder}}/">
+      <span class="icon {{category.icon}}"></span>
+      <strong>{{category.name}}</strong>
+    </a>
+    <p>{{category.content}}</p>
+    {% include articles-in-categories-list.html type=category.folder %}  
+  </div>
+  {% if n < 2 %}
+    {% assign n = n+1 %}
+  {%else%}
+    {% assign n = 0 %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+

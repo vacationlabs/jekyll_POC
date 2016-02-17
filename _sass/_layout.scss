@@ -663,48 +663,49 @@ padding: 50px 0px; }
 /**
  * browse content
  */
-  #support #all-categories {
-    margin-top: 40px; }
-    #support #all-categories h4 {
-      font-weight: 300;
-      margin-bottom: 50px;
-      font-size: 24px; }
-    #support #all-categories .topic {
-      margin-bottom: 45px; }
+#support #all-categories {
+  margin-top: 40px; }
+#support #all-categories h4 {
+  font-weight: 300;
+  margin-bottom: 50px;
+  font-size: 24px; }
+#support #all-categories .topic {
+  margin-bottom: 45px; }
 
-    #support #all-categories .topic ul {
-      list-style-type: none; }
+#support #all-categories .topic ul {
+  list-style-type: none; }
 
-    #support #all-categories .topic ul li a span {
-      font-size: 25px;
-      padding-right: 14px; }
+#support #all-categories .topic ul li a span {
+  font-size: 25px;
+  padding-right: 14px; }
 
-      @media (max-width: 767px) {
-        #support #all-categories .topic {
-          text-align: center; } }
-      #support #all-categories .topic .icon {
-        display: block;
-        font-size: 45px;
-        color: #70CBF5; }
+@media (max-width: 767px) {
+  #support #all-categories .topic {
+    text-align: center; } }
+#support #all-categories .topic .icon {
+  display: block;
+  font-size: 45px;
+  color: #70CBF5; }
 
-        
-      #support #all-categories .topic a {
-        color: #333;
-        text-decoration: none;
-        -webkit-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        transition: all 0.2s linear; }
-        #support #all-categories .topic a strong {
-          display: block;
-          margin-top: 15px;
-          font-size: 15px; }
-        #support #all-categories .topic a:hover {
-          color: #5CB9E4; }
-      #support #all-categories .topic p {
-        margin-top: 17px;
-        color: #838383; }
+    
+#support #all-categories .topic a {
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+#support #all-categories .topic a strong {
+  display: block;
+  margin-top: 15px;
+  font-size: 15px; }
+#support #all-categories .topic a:hover {
+  color: #5CB9E4; }
+#support #all-categories .topic p {
+  margin-top: 17px;
+  color: #838383;
+  }
         
 /**
  * Page content

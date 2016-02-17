@@ -1,0 +1,7 @@
+<ul class="all-articles">
+  {% for articles in site.categories.[include.type] limit:5 %}
+    <li>
+      <a href="{{site.baseurl}}{{articles.url}}"><span class="ion-document"></span>{{articles.title}}</a>
+    </li>
+  {% endfor %}
+</ul>
