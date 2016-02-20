@@ -11,36 +11,36 @@ layout: default
 			</div>
 		</div>
 
-	{{ content }}
-	<!-- to include youtube iframe if youtube_url is present -->
-	{% if page.youtube_url | size != 0 %}
-		<div class="row">
-			<div class="col-md-12">
-			<span style="display:none" id="videoid">{{ page.youtube_url }}</span>
-				<div id="player"></div>
+		{{ content }}
+		<!-- to include youtube iframe if youtube_url is present -->
+		{% if page.youtube_url | size != 0 %}
+			<div class="row">
+				<div class="col-md-12">
+					<span style="display:none" id="videoid">{{ page.youtube_url }}</span>
+					<div id="player"></div>
+				</div>
 			</div>
-		</div>
-	{% endif %}
-	
+		{% endif %}
+		
 
-	<!-- to include the srt transcript if srt_url is present -->
-	{% if page.srt_url | size != 0 %}
-		{% assign srt_file = page.url | split: '/' %}
-		{% assign srt_file_name = srt_file[2] | append: '.html' %}
-		<div class="row">
-			<div class="col-md-12">
-				{% include converted_srt/{{ srt_file_name }} %}
+		<!-- to include the srt transcript if srt_file_name is present -->
+		{% if page.srt_file_name | size != 0 %}
+			{% assign srt_file = page.url | split: '/' %}
+			{% assign srt_file_name = srt_file.last | append: '.html' %}
+			<div class="row">
+				<div class="col-md-12">
+					{% include converted_srt/{{ srt_file_name }} %}
+				</div>
 			</div>
-		</div>
-	{% endif %}
+		{% endif %}
 
-	{% if page.youtube_url | size != 0 %}
-		<div class="row">
-			<div class="col-md-12">
-				{% include transcript_js.html video_id=page.youtube_url %}
+		{% if page.youtube_url | size != 0 %}
+			<div class="row">
+				<div class="col-md-12">
+					{% include transcript_js.html video_id=page.youtube_url %}
+				</div>
 			</div>
-		</div>
-	{% endif %}
+		{% endif %}
 
 	</div>
 </div>

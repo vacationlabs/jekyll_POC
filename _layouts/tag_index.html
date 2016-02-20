@@ -1,0 +1,30 @@
+---
+layout: default-blog
+---
+
+<div id="all-blogs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="post_title">{{page.title}}</h2>
+        <ul>
+          {% for blog in site.posts %}
+          {% for tag in blog.tags %}
+          {% if tag == page.tag %}
+          <li class="archive_list">
+            <time style="color:#666;font-size:11px;" datetime='{{blog.date | date: "%Y-%m-%d"}}'>{{blog.date | date: "%B %-d, %Y"}}</time> 
+              <a class="archive_list_article_link" href='{{site.baseurl}}{{blog.url}}'>{{blog.title}}</a>
+              <p class="summary">{{blog.summary}}
+                {% for tag in blog.tags %}
+                  <a href="{{site.baseurl}}/tag/{{tag}}">#{{tag}}</a>
+                {% endfor %}
+              </p>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

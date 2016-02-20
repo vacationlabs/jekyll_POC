@@ -1,0 +1,35 @@
+---
+layout: default-blog
+---
+
+<div id="all-blogs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="heading">{{page.title}}</h1>
+      </div>
+    </div>
+
+    <div class="blog-listing">
+    {% for blog in site.categories['blogs'] %}
+      <div class="row">
+        <div class="col-sm-12 topic"> 
+          <a href="{{blog.url}}">
+            <h2 >{{blog.title}}</h2></a>
+          <p class="post-meta"><time datetime="{{ blog.date | date_to_xmlschema }}" itemprop="datePublished">{{ blog.date | date: "%-d %B %Y" }}</time>
+          ,by {{ blog.written-by }}
+          <br>
+          {% include tagsforpost.html tags=blog.tags %}
+          </p>
+          {{ blog.excerpt }}
+          {% if blog.content contains site.excerpt_separator %}
+            <a href="{{blog.url}}">...Read more</a>
+          {% endif %} 
+
+        </div>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+

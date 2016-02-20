@@ -1,0 +1,17 @@
+
+<!-- capture captures text into a variable -->
+{% capture blog_tags %}
+  {% for tag in include.tags %}
+    {{ tag }}
+  {% endfor %}
+{% endcapture %}
+
+<!-- sorting tags alphabetically -->
+{% assign sortedtags = blog_tags | split:' ' | sort %}
+
+<!-- tags output: name & link to the page with list of all the posts with the same tag -->
+{% for tag in sortedtags %}
+  <a href="{{site.baseurl}}/tag/{{tag}}">#{{tag}}</a>
+{% endfor %}
+
+

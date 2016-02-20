@@ -1,28 +1,26 @@
-{% for category in site.data.category-types %}
-  {% if {{category.folder}} == {{include.type}} %}
+{% for category in site.data.support-category-types %}
+  {% if {{category.category_name}} == {{include.type}} %}
   <div class="row">
-	  <div class="col-sm-12 topic"> 
-			<a href="{{site.baseurl}}/support/{{category.folder}}/">
-			  <h2>Category: {{category.name}}</h2>
-			</a>
-			<p>{{category.content}}</p>
-			{% for articles in site.categories.[category.folder] %}
-			<div class="row">
-		  	<div class="col-sm-12 topic"> 
-		      <h3><a href="{{site.baseurl}}{{articles.url}}">
-		      	<span class="ion-document"></span>
-		      	{{articles.title}}</h3>
-		      	{{ articles.content | strip_html | truncate:300 }}
-						{% if articles.content | size > 300 %}
-						    <strong style="color:#a03717">Read more -></strong>
-						{% endif %}
-		      	
-		      </a>
-		      
-		    </div>
-	    </div>
-	  	{% endfor %}
-	  </div>
+    <div class="col-sm-12 topic"> 
+      <a href="">
+        <h2>Category: {{category.title}}</h2>
+      </a>
+      <p>{{category.content}}</p>
+      {% for articles in site.categories.[category.category_name] %}
+      <div class="row">
+        <div class="col-sm-12 topic"> 
+          <a href="{{articles.url}}">
+            <h3><span class="ion-document"></span>
+            {{articles.title}}</h3>
+            {{ articles.content | strip_html | truncate:300 }}
+            {% if articles.content | size > 300 %}
+                <strong style="color:#a03717">Read more -></strong>
+            {% endif %}
+          </a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
   {% endif %}
 {% endfor %}

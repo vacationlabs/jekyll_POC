@@ -4,7 +4,7 @@
 
 2
 00:00:04,800 --> 00:00:09,033
-Hi and welcome to the Vacation Labs booking engine. This video will take you through the process of  
+Hi and welcome to the VacationLabs booking engine. This video will take you through the process of  
 
 3
 00:00:09,033 --> 00:00:13,266

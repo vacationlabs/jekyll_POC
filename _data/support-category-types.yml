@@ -1,0 +1,20 @@
+- title: Getting Started
+  category_name: support/knowledgebase/category/getting-started
+  icon: ion-clipboard
+  content: 'Get all support here on how to integrate our product with your website, how to integrate payment gateway, how to create first trip etc.'
+
+- title: Managing your trips
+  category_name: support/knowledgebase/category/managing-your-trips
+  icon: ion-earth
+  content: 'All support articles to help you manage your trips without any pains!'
+
+- title: Other Features
+  category_name: support/knowledgebase/category/other-features
+  icon: ion-social-buffer
+  content: 'Learn how to create coupons, filter bookings or use Vacation Labs dashboard here.'
+
+- title: Using your Storefront
+  category_name: support/knowledgebase/category/using-your-storefront
+  icon: ion-briefcase
+  content: 'Become aware of your storefront and how to customize it, add custom SEO tags to optimize your page for searches and get a hang of the CMS.'
+  

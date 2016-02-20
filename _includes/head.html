@@ -9,8 +9,18 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script async src="/assets/bootstrap.min.js"></script>
-<script src="/assets/theme.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script async src="/assets/bootstrap.min.js"></script>
+  <script src="/assets/theme.js"></script>
+  <!-- for disqus commenting -->
+  <script type="text/javascript">
+  (function () {
+    var s = document.createElement('script');
+    s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//vacationlabs.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>
 
 </head>
