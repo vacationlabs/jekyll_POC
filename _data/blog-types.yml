@@ -1,0 +1,15 @@
+- title: Travel & Tourism
+  type: blog/travel-and-tourism
+  icon: ion-clipboard
+
+- title: Economy
+  type: blog/economy
+  icon: ion-clipboard
+
+- title: Tech
+  type: blog/tech
+  icon: ion-clipboard
+
+- title: Product
+  type: blog/product
+  icon: ion-clipboard

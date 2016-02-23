@@ -1,0 +1,55 @@
+---
+layout: all-blogs
+title: Vacation labs Blog
+---
+
+<div class="blog-listing">
+
+  <div class="row">
+    <div class="col-sm-8 topic">
+    <h1>Latest Post</h1>
+    <!-- number of recent blogs to display -->
+    {% assign n = 1 %}
+    {% for blog in site.posts %}
+      {% if n > 0 %}
+        {% assign words = blog.categories | split: '/' %}
+        {% assign search = words[0] | split: '["' %}
+          <!-- display only blog posts -->
+          {% if search contains 'blog' %}
+            {% assign n = n | minus: 1 %}
+            <a href="{{blog.url}}">
+              <h2 >{{blog.title}}</h2></a>
+            <p class="blog-meta"><time datetime="{{ blog.date | date_to_xmlschema }}" itemprop="datePublished">{{ blog.date | date: "%-d %B %Y" }}</time>
+            ,by {{ blog.written-by }}
+            <br>
+            {% include tagsforpost.html tags=blog.tags %}
+            </p>
+            {{ blog.excerpt }}
+            {% if blog.content contains site.excerpt_separator %}
+              <a href="{{blog.url}}">...Read more</a>
+            {% endif %}
+
+          {% endif %}
+      {% endif %}
+    {% endfor %}
+
+
+
+
+    </div>
+
+    <!-- right hand side listing of blog types -->
+    <div style="border: 1px solid grey;text-align: center;" class="col-sm-4 ">
+    <h2 style="color: red">Blog Types</h2>
+      {% for blog_category in site.data.blog-types %}
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="/{{blog_category.type}}">
+              <strong>{{blog_category.title}}</strong> 
+            </a>  
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

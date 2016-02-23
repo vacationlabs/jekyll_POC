@@ -1,0 +1,31 @@
+{% for blog_category in site.data.blog-types %}
+  {% if {{blog_category.type}} == {{include.type}} %}
+  {% assign ct=0 %}
+  <div class="row">
+    <div class="col-sm-12 topic"> 
+      <h2 >{{blog_category.title}}</h2>
+      {% for blog in site.categories.[blog_category.type] %}
+      {% assign ct=1 %}
+        <div class="row">
+          <div class="col-sm-12 topic"> 
+            <a href="{{blog.url}}">
+              <h3>{{blog.title}}</h3></a>
+              <p class="post-meta"><time datetime="{{ blog.date | date_to_xmlschema }}" itemprop="datePublished">{{ blog.date | date: "%-d %B %Y" }}</time>,by {{ blog.written-by }}
+                <br>
+                {% include tagsforpost.html tags=blog.tags %}
+              </p>
+              {{ blog.content | strip_html | truncate:300 }}
+              {% if blog.content contains site.excerpt_separator %}
+                <a href="{{blog.url}}">...Read more</a>
+              {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      <!-- if the blog types dont contain any blogs -->
+      {% if ct == 0 %}
+        <h2>NO blogs</h2>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}

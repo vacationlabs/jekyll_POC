@@ -1,0 +1,12 @@
+---
+layout: default
+title: Category Articles 
+---
+
+<div id="all-categories">
+  <div class="container">
+  {% assign tag= {{page.category}}%}
+  {% include all-articles-list-in-support-category.html type=tag %}
+
+  </div>
+</div>

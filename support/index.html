@@ -3,14 +3,12 @@ layout: all-categories
 title: Article Categories
 ---
 
-{% assign n = 0 %}
-
 {% for category in site.data.support-category-types %}
   {% cycle 'add row' : '<div class="row">', nil, '<div class="row">', nil %}
   <div class="col-sm-6 topic">
-    <a href="{{site.baseurl}}/{{category.category_name}}/">
+    <a href="/{{category.category_name}}">
       <span class="icon {{category.icon}}"></span>
-      <strong>{{category.title}}</strong>
+      <strong>{{category.title}}</strong> 
     </a>
     <p>{{category.content}}</p>
     {% include top-five-articles-in-categories-list.html type=category.category_name %}  

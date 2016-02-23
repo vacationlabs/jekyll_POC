@@ -1,0 +1,12 @@
+---
+layout: default-blog
+title: Blog Category 
+---
+
+<div id="all-blogs">
+  <div class="container">
+  {% assign tag= {{page.type}}%}
+  {% include all-blog-list-in-blog-category.html type=tag %}
+
+  </div>
+</div>

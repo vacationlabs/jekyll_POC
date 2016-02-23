@@ -6,12 +6,29 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 20 Feb 2016 14:36:53 +0530</pubDate>
-    <lastBuildDate>Sat, 20 Feb 2016 14:36:53 +0530</lastBuildDate>
+    <pubDate>Tue, 23 Feb 2016 13:07:01 +0530</pubDate>
+    <lastBuildDate>Tue, 23 Feb 2016 13:07:01 +0530</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
-        <title>My first blog</title>
+        <title>new new</title>
+        <description>&lt;p&gt;The Settings page has multiple categories on the left navigation bar.&lt;/p&gt;
+
+&lt;p&gt;The Settings page lets you edit the Support details that you provided while registering for vacation labs. These details include company name, website, support email, notification email, support phone, booking website, booking terms URL and mailing address.&lt;/p&gt;
+
+&lt;p&gt;The branding tab gives you good control over your storefront customization. You can upload/change your logo, background image, booking website banner and favicon through the settings.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Feb 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/support/getting-started/new-new</link>
+        <guid isPermaLink="true">http://yourdomain.com/support/getting-started/new-new</guid>
+        
+        
+        <category>support/getting-started</category>
+        
+      </item>
+    
+      <item>
+        <title>My third blog</title>
         <description>&lt;div class=&quot;message&quot;&gt;
 My first post in a new Jekyll-based blog!
 &lt;/div&gt;
@@ -29,16 +46,16 @@ My first post in a new Jekyll-based blog!
 
 &lt;p&gt;Github repo with the sources of this blog can be found here: &lt;a href=&quot;https://github.com/vitalyrepin/vrepinblog&quot;&gt;https://github.com/vitalyrepin/vrepinblog&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Feb 2016 00:00:00 +0530</pubDate>
-        <link>http://yourdomain.com/blogs/first-blog</link>
-        <guid isPermaLink="true">http://yourdomain.com/blogs/first-blog</guid>
+        <pubDate>Thu, 04 Feb 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/blog/travel-and-tourism/third-block</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/travel-and-tourism/third-block</guid>
         
         <category>jekyll</category>
         
         <category>blogging</category>
         
         
-        <category>blogs</category>
+        <category>blog/travel-and-tourism</category>
         
       </item>
     
@@ -141,9 +158,9 @@ the command line to launch external filter.&lt;/li&gt;
 – &lt;a href=&quot;https://www.elastic.co/guide/en/logstash/current/plugins-outputs-exec.html&quot;&gt;exec output plugin&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 17 Feb 2016 00:00:00 +0530</pubDate>
-        <link>http://yourdomain.com/blogs/second-blog</link>
-        <guid isPermaLink="true">http://yourdomain.com/blogs/second-blog</guid>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/blog/economy/second-blog</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/economy/second-blog</guid>
         
         <category>logstash</category>
         
@@ -152,85 +169,39 @@ the command line to launch external filter.&lt;/li&gt;
         <category>ruby</category>
         
         
-        <category>blogs</category>
+        <category>blog/economy</category>
         
       </item>
     
       <item>
-        <title>What is a storefront</title>
-        <description>&lt;p&gt;What is a storefront&lt;/p&gt;
+        <title>My first blog</title>
+        <description>&lt;div class=&quot;message&quot;&gt;
+My first post in a new Jekyll-based blog!
+&lt;/div&gt;
+
+&lt;p&gt;I found Jekyll much more powerful than txt2site.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;Several useful links if you want to make your Jekyll-based blog:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://joshualande.com/jekyll-github-pages-poole/&quot;&gt;How I Created a Beautiful and Minimal Blog Using Jekyll, Github Pages, and poole&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://txt2tags.wordpress.com/2014/04/09/use-txt2tags-markup-in-jekyll/&quot;&gt;Use txt2tags markup in Jekyll&lt;/a&gt;  Extremely useful if you need to move some of your old content from &lt;a href=&quot;http://home.deds.nl/~svg_experimenten/txt2site/&quot;&gt;txt2site&lt;/a&gt; to Jekyll&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Github repo with the sources of this blog can be found here: &lt;a href=&quot;https://github.com/vitalyrepin/vrepinblog&quot;&gt;https://github.com/vitalyrepin/vrepinblog&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/using-your-storefront/what-is-a-storefront</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/using-your-storefront/what-is-a-storefront</guid>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/blog/travel-and-tourism/first-blog</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/travel-and-tourism/first-blog</guid>
+        
+        <category>jekyll</category>
+        
+        <category>blogging</category>
         
         
-        <category>support/knowledgebase/category/using-your-storefront</category>
-        
-      </item>
-    
-      <item>
-        <title>how to upload trip content</title>
-        <description>&lt;p&gt;how to upload trip content&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/using-your-storefront/how-to-upload-trip-content</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/using-your-storefront/how-to-upload-trip-content</guid>
-        
-        
-        <category>support/knowledgebase/category/using-your-storefront</category>
-        
-      </item>
-    
-      <item>
-        <title>Using the Vacation Labs dashboard</title>
-        <description>&lt;p&gt;Using the Vacation Labs dashboard&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/other-features/using-the-vacation-labs-dashboard</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/other-features/using-the-vacation-labs-dashboard</guid>
-        
-        
-        <category>support/knowledgebase/category/other-features</category>
-        
-      </item>
-    
-      <item>
-        <title>How to view/edit bookings</title>
-        <description>&lt;p&gt;How to view/edit bookings&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/other-features/how-to-view-edit-bookings</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/other-features/how-to-view-edit-bookings</guid>
-        
-        
-        <category>support/knowledgebase/category/other-features</category>
-        
-      </item>
-    
-      <item>
-        <title>Using trip variants</title>
-        <description>&lt;p&gt;Using trip variants&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/managing-your-trips/using-trip-variants</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/managing-your-trips/using-trip-variants</guid>
-        
-        
-        <category>support/knowledgebase/category/managing-your-trips</category>
-        
-      </item>
-    
-      <item>
-        <title>Pricing your tour</title>
-        <description>&lt;p&gt;Pricing your tour&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/managing-your-trips/pricing-your-tour</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/managing-your-trips/pricing-your-tour</guid>
-        
-        
-        <category>support/knowledgebase/category/managing-your-trips</category>
+        <category>blog/travel-and-tourism</category>
         
       </item>
     
@@ -242,29 +213,77 @@ the command line to launch external filter.&lt;/li&gt;
 
 &lt;p&gt;The branding tab gives you good control over your storefront customization. You can upload/change your logo, background image, booking website banner and favicon through the settings.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/getting-started/configure-your-account-settings</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/getting-started/configure-your-account-settings</guid>
+        <pubDate>Sat, 30 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/support/getting-started/configure-your-account-settings</link>
+        <guid isPermaLink="true">http://yourdomain.com/support/getting-started/configure-your-account-settings</guid>
         
         
-        <category>support/knowledgebase/category/getting-started</category>
+        <category>support/getting-started</category>
         
       </item>
     
       <item>
-        <title>Creating your first trip</title>
-        <description>&lt;p&gt;&lt;em&gt;—short discription&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The first step to set up a tour is to decide whether it is a short tour, class or certification course, multi day tour or you need custom fields. We have built in type specific features and terminology which will help you customize the tour to your requirements&lt;/p&gt;
-
-&lt;p&gt;After selecting the type of tour, you start by filling the basic details&lt;/p&gt;
+        <title>What is a storefront</title>
+        <description>&lt;p&gt;What is a storefront&lt;/p&gt;
 </description>
-        <pubDate>Fri, 11 Sep 2015 20:15:58 +0530</pubDate>
-        <link>http://yourdomain.com/support/knowledgebase/category/getting-started/creating-your-first-trip</link>
-        <guid isPermaLink="true">http://yourdomain.com/support/knowledgebase/category/getting-started/creating-your-first-trip</guid>
+        <pubDate>Sat, 02 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/support/using-your-storefront/what-is-a-storefront</link>
+        <guid isPermaLink="true">http://yourdomain.com/support/using-your-storefront/what-is-a-storefront</guid>
         
         
-        <category>support/knowledgebase/category/getting-started</category>
+        <category>support/using-your-storefront</category>
+        
+      </item>
+    
+      <item>
+        <title>Using the Vacation Labs dashboard</title>
+        <description>&lt;p&gt;Using the Vacation Labs dashboard&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/support/other-features/using-the-vacation-labs-dashboard</link>
+        <guid isPermaLink="true">http://yourdomain.com/support/other-features/using-the-vacation-labs-dashboard</guid>
+        
+        
+        <category>support/other-features</category>
+        
+      </item>
+    
+      <item>
+        <title>Using trip variants</title>
+        <description>&lt;p&gt;Using trip variants&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/support/managing-your-trips/using-trip-variants</link>
+        <guid isPermaLink="true">http://yourdomain.com/support/managing-your-trips/using-trip-variants</guid>
+        
+        
+        <category>support/managing-your-trips</category>
+        
+      </item>
+    
+      <item>
+        <title>how to upload trip content</title>
+        <description>&lt;p&gt;how to upload trip content&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/support/using-your-storefront/how-to-upload-trip-content</link>
+        <guid isPermaLink="true">http://yourdomain.com/support/using-your-storefront/how-to-upload-trip-content</guid>
+        
+        
+        <category>support/using-your-storefront</category>
+        
+      </item>
+    
+      <item>
+        <title>How to view/edit bookings</title>
+        <description>&lt;p&gt;How to view/edit bookings&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/support/other-features/how-to-view-edit-bookings</link>
+        <guid isPermaLink="true">http://yourdomain.com/support/other-features/how-to-view-edit-bookings</guid>
+        
+        
+        <category>support/other-features</category>
         
       </item>
     

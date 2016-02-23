@@ -1,9 +1,3 @@
-# REVIEW - Fix the filename of this plugin. Why is the class called
-# VersionReporter? Shouldn't it be called SRTConverter or something
-
-# REVIEW - fix your editor settings to indent using TWO SPACES (not tabs) and
-# re-indent this file. Use this setting for ALL Ruby code in the future.
-
 module Jekyll
   class SRTConverter < Generator
     safe true
@@ -73,7 +67,7 @@ module Jekyll
                         line_data=""
                         count=1
                       else
-                        line_data=line_data+"\n "+line
+                        line_data=line_data+"<br> "+line
                         count=4
                       end
                       
@@ -87,8 +81,6 @@ module Jekyll
         end # end of if(post.url.split("/")[1] == 'support')
       end # end of site.posts.each
     end # end of generate function
-
-  
 
     private
     #this function will take the full line 
